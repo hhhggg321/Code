@@ -1,0 +1,30 @@
+<div ng-controller="HomeCtrl">
+  <div class="col-xs-12 bg-info header">
+    <span>孙老师的R课堂</span>
+  </div>
+  <div class="col-xs-5">
+    <h1 class="bg-primary courseName">{{course.courseName}}</h1>
+    <p class="bg-success courseNote">
+      {{course.courseNote}}
+    <p>
+    <h2>Instructions</h2>
+    <div class="bg-warning examIntro">{{course.examIntro}}
+    </div>
+  </div>
+  <div class="col-xs-7">
+    <div class="editor" ui-codemirror="{ onLoad : editorLoaded }" ui-codemirror-opts="editorOptions" ng-model="editorContent"></div>
+    <div>
+      <button type="button" class="btn btn-primary submit-button" ng-click="submit()">submit</button>
+      <span ng-show="message" class="message">
+        <span ng-if="!status" class="text-danger">
+          {{message}}
+        </span>
+        <span ng-if="status" class="text-success">
+          {{message}}
+        </span>
+      </span>
+    </div>
+    <div class="console" ui-codemirror="{ onLoad : consoleLoaded }" ui-codemirror-opts="consoleOptions" ng-model="consoleContent"></div>
+  </div>
+  
+</div>

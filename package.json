@@ -1,0 +1,22 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "code mirror",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hao",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-codemirror": "^0.3.0",
+    "angular-ui-router": "^1.0.3",
+    "codemirror": "^5.25.2",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  }
+}

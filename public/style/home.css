@@ -1,0 +1,37 @@
+.editor{
+  margin: 20px 20px 0px;
+}
+.console{
+  margin: 10px 20px;
+}
+
+.header{
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.courseName{
+  padding: 20px;
+}
+.courseNote{
+  padding: 30px;
+  height: 400px;
+  font-size: 20px;
+}
+.examIntro{
+  padding: 20px;
+  height: 200px;
+  font-size: 20px;
+}
+.submit-button{
+  display: inline-block;
+  margin: 5px 20px;
+}
+.message{
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.no-padding{
+  padding: 0;
+}
